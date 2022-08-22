@@ -1,5 +1,7 @@
 package eu.tutorials.oopexample.ui.solid
 
+//Interface Segregation Principle
+
 interface Animal {
 
     fun eat()

@@ -2,6 +2,8 @@ package eu.tutorials.oopexample.models.polymorphism
 
 class Maximum {
 
+    //Overloading
+
 fun main() {
     println("This is 1st methods max 1 : ${getMax(2, 3)}")
     println("This is 1st methods max 3 : ${getMax(6.4, 3)}")

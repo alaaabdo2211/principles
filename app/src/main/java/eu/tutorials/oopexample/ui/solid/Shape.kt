@@ -1,5 +1,8 @@
 package eu.tutorials.oopexample.ui.solid
 
+
+//Open-Closed Principle
+
 interface Shape {
 
     fun getArea(): Double

@@ -1,5 +1,8 @@
 package eu.tutorials.oopexample.ui.solid
 
+
+//Liskov Substitution Principle
+
 interface Vehicle {
 
     fun moveForward()

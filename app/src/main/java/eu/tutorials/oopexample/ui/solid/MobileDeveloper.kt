@@ -1,5 +1,8 @@
 package eu.tutorials.oopexample.ui.solid
 
+
+//Dependency Inversion Principle
+
 interface MobileDeveloper {
 
     fun developMobileApp()
