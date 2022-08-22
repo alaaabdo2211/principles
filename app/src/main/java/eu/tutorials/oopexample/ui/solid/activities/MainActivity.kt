@@ -3,8 +3,8 @@ package eu.tutorials.oopexample.ui.solid.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import eu.tutorials.oopexample.R
-import eu.tutorials.oopexample.models.Triangle
-import eu.tutorials.oopexample.models.Circle
+import eu.tutorials.oopexample.models.abstraction.Triangle
+import eu.tutorials.oopexample.models.abstraction.Circle
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

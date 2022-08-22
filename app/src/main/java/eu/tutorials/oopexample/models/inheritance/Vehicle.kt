@@ -1,4 +1,4 @@
-package eu.tutorials.oopexample.models
+package eu.tutorials.oopexample.models.inheritance
 
 import android.util.Log
 import android.widget.Toast

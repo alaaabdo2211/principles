@@ -1,6 +1,6 @@
-package eu.tutorials.oopexample.models
+package eu.tutorials.oopexample.models.abstraction
 
-import eu.tutorials.oopexample.models.Shape
+import eu.tutorials.oopexample.models.abstraction.Shape
 import kotlin.math.sqrt
 
 class Triangle(var a: Double, var b: Double, var c: Double) : Shape() {

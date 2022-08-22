@@ -1,4 +1,4 @@
-package eu.tutorials.oopexample.models
+package eu.tutorials.oopexample.models.abstraction
 
 abstract class Shape {
 
