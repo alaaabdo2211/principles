@@ -8,7 +8,10 @@ import android.util.Log
 data class User(
     var id: Long,
     var name: String,
-    var password: String
+    var password: String,
+    var age : Long,
+    var height: Long,
+    var isValid : Boolean
 )
 
 class AuthenticationService(){
@@ -20,4 +23,16 @@ class AuthenticationService(){
         Log.d("Sign out","Sign out")
 
     }
+
+    fun authorizeAuthToken(){
+
+    }
+//
+//    fun authenticateEmail(){
+//
+//    }
+//
+//    fun authenticateMobileNumber(){
+//
+//    }
 }

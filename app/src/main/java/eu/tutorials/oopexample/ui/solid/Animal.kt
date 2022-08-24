@@ -22,6 +22,8 @@ class Cat : Animal {
         println("Cat is sleeping on its owner's bed")
     }
 
+
+
 }
 
 class Bird : Animal , FlyingAnimal {

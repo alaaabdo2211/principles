@@ -23,7 +23,7 @@ abstract class VehicleWithEngine : Vehicle {
 
 }
 
-class Car : VehicleWithEngine() {
+open class Car : VehicleWithEngine() {
 
     override fun startEngine() {
         super.startEngine()
@@ -49,7 +49,7 @@ class Car : VehicleWithEngine() {
 
 }
 
-class Bicycle : Vehicle {
+class Bicycle : Car() {
     override fun moveForward() {
         println("Moving forward")
     }
